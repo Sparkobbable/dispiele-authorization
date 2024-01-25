@@ -44,7 +44,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 .authorities("ADMIN")
                 .scopes("administration")
                 .redirectUris("http://localhost:3000/home", "https://admin.deutschirischespielemanufaktur.com/home",
-                        "https://admindev.deutschirischespielemanufaktur.com/home")
+                        "https://dev-admin.deutschirischespielemanufaktur.com/home")
                 .autoApprove(true)
                 .resourceIds("api");
     }
